@@ -1,0 +1,17 @@
+Changes made to your original code
+
+
+
+Original code                   modified code   
+                          	
+
+Basic webpage design	        Attractive banking interface
+Simple sections                 Separate styled calculator cards
+Basic variable demonstration	Clear var, let, const demonstration
+Basic operator output	        Better formatted calculations
+Basic loan eligibility   	Improved input validation
+Simple interest table	        Better formatted 5-year table
+Basic loop demonstration	Clear loop output
+EMI calculator	                Improved EMI calculation and total payment
+Limited error handling   	Validation for empty and invalid values
+CSS inside HTML         	Separate style.css file

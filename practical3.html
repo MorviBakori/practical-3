@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Secure Bank - Banking Calculator</title>
+
+    <link rel="stylesheet" href="practical3.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Secure Bank</h1>
+        <p>Simple and Smart Banking Calculator</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Variables -->
+        <section class="card">
+            <h2>1. Variables Demo</h2>
+            <p>Demonstration of var, let and const.</p>
+
+            <button onclick="showVariables()">
+                Show Variables
+            </button>
+
+            <p id="variableResult" class="result"></p>
+        </section>
+
+        <!-- Operators -->
+        <section class="card">
+            <h2>2. Operators</h2>
+
+            <label>Enter First Number</label>
+            <input type="number" id="num1" placeholder="First number">
+
+            <label>Enter Second Number</label>
+            <input type="number" id="num2" placeholder="Second number">
+
+            <button onclick="showOperators()">
+                Calculate
+            </button>
+
+            <div id="operatorResult" class="result"></div>
+        </section>
+
+        <!-- Loan Eligibility -->
+        <section class="card">
+            <h2>3. Loan Eligibility</h2>
+
+            <label>Enter Your Age</label>
+            <input type="number" id="age" placeholder="Enter age">
+
+            <label>Monthly Income (₹)</label>
+            <input type="number" id="income" placeholder="Enter income">
+
+            <label>Credit Score</label>
+            <input type="number" id="creditScore" placeholder="Enter credit score">
+
+            <button onclick="checkLoanEligibility()">
+                Check Eligibility
+            </button>
+
+            <p id="loanResult" class="result"></p>
+        </section>
+
+        <!-- Account Type -->
+        <section class="card">
+            <h2>4. Account Type</h2>
+
+            <label>Select Account</label>
+
+            <select id="accountType">
+                <option value="savings">Savings Account</option>
+                <option value="current">Current Account</option>
+                <option value="salary">Salary Account</option>
+            </select>
+
+            <button onclick="showAccountBenefit()">
+                Show Details
+            </button>
+
+            <p id="accountResult" class="result"></p>
+        </section>
+
+        <!-- Simple Interest -->
+        <section class="card">
+            <h2>5. Simple Interest Calculator</h2>
+
+            <label>Principal Amount (₹)</label>
+            <input type="number" id="principal" placeholder="Enter amount">
+
+            <label>Interest Rate (%)</label>
+            <input type="number" id="rate" placeholder="Enter rate">
+
+            <button onclick="generateInterestTable()">
+                Calculate Interest
+            </button>
+
+            <div id="interestResult" class="result"></div>
+        </section>
+
+        <!-- Loops -->
+        <section class="card">
+            <h2>6. Loop Demonstration</h2>
+
+            <p>Demonstration of while and do-while loops.</p>
+
+            <button onclick="runLoopDemo()">
+                Run Loops
+            </button>
+
+            <div id="loopResult" class="result"></div>
+        </section>
+
+        <!-- EMI Calculator -->
+        <section class="card">
+            <h2>7. EMI Calculator</h2>
+
+            <label>Loan Amount (₹)</label>
+            <input type="number" id="loanAmount" placeholder="Enter loan amount">
+
+            <label>Annual Interest Rate (%)</label>
+            <input type="number" id="emiRate" placeholder="Enter interest rate">
+
+            <label>Loan Period (Months)</label>
+            <input type="number" id="months" placeholder="Enter months">
+
+            <button onclick="calculateAndShowEMI()">
+                Calculate EMI
+            </button>
+
+            <p id="emiResult" class="result"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Secure Bank | Practical 3 - JavaScript</p>
+    </footer>
+
+    <script src="practical3.js"></script>
+
+</body>
+</html>

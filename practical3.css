@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef3f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #154360;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 25px auto;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #154360;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+/* Input Fields */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #2874a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #154360;
+}
+
+/* Result */
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f2f8fc;
+    border-radius: 5px;
+    line-height: 1.7;
+    overflow-x: auto;
+}
+
+/* Interest Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #154360;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #154360;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    th, td {
+        padding: 6px;
+        font-size: 13px;
+    }
+}
